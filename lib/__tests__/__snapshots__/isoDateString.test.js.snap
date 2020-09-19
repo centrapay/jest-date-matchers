@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`toBeIsoDateStringNear custom threshold affirmative failure message: 2020-09-01T00:45:00.000Z within 10 hours of 2020-09-01T10:45:00.000Z 1`] = `"expected 2020-09-01T00:45:00.000Z not to be ISO Date String within 10 hours of 2020-09-01T10:45:00.000Z (was 10 hours)"`;
+
+exports[`toBeIsoDateStringNear custom threshold affirmative failure message: 2020-09-01T10:35:00.000Z within 10 minutes of 2020-09-01T10:45:00.000Z 1`] = `"expected 2020-09-01T10:35:00.000Z not to be ISO Date String within 10 minutes of 2020-09-01T10:45:00.000Z (was 10 minutes)"`;
+
+exports[`toBeIsoDateStringNear custom threshold affirmative failure message: 2020-09-01T10:44:50.000Z within 10 seconds of 2020-09-01T10:45:00.000Z 1`] = `"expected 2020-09-01T10:44:50.000Z not to be ISO Date String within 10 seconds of 2020-09-01T10:45:00.000Z (was 10 seconds)"`;
+
+exports[`toBeIsoDateStringNear custom threshold affirmative failure message: 2020-09-01T10:44:59.990Z within 10 milliseconds of 2020-09-01T10:45:00.000Z 1`] = `"expected 2020-09-01T10:44:59.990Z not to be ISO Date String within 10 milliseconds of 2020-09-01T10:45:00.000Z (was 10 milliseconds)"`;
+
+exports[`toBeIsoDateStringNear custom threshold affirmative failure message: 2020-09-01T10:45:00.010Z within 10 milliseconds of 2020-09-01T10:45:00.000Z 1`] = `"expected 2020-09-01T10:45:00.010Z not to be ISO Date String within 10 milliseconds of 2020-09-01T10:45:00.000Z (was 10 milliseconds)"`;
+
+exports[`toBeIsoDateStringNear custom threshold affirmative failure message: 2020-09-01T10:45:10.000Z within 10 seconds of 2020-09-01T10:45:00.000Z 1`] = `"expected 2020-09-01T10:45:10.000Z not to be ISO Date String within 10 seconds of 2020-09-01T10:45:00.000Z (was 10 seconds)"`;
+
+exports[`toBeIsoDateStringNear custom threshold affirmative failure message: 2020-09-01T10:55:00.000Z within 10 minutes of 2020-09-01T10:45:00.000Z 1`] = `"expected 2020-09-01T10:55:00.000Z not to be ISO Date String within 10 minutes of 2020-09-01T10:45:00.000Z (was 10 minutes)"`;
+
+exports[`toBeIsoDateStringNear custom threshold affirmative failure message: 2020-09-01T20:45:00.000Z within 10 hours of 2020-09-01T10:45:00.000Z 1`] = `"expected 2020-09-01T20:45:00.000Z not to be ISO Date String within 10 hours of 2020-09-01T10:45:00.000Z (was 10 hours)"`;
+
+exports[`toBeIsoDateStringNear custom threshold affirmative failure message: 2020-09-05T10:45:00.000Z within 10 days of 2020-09-15T10:45:00.000Z 1`] = `"expected 2020-09-05T10:45:00.000Z not to be ISO Date String within 10 days of 2020-09-15T10:45:00.000Z (was 10 days)"`;
+
+exports[`toBeIsoDateStringNear custom threshold affirmative failure message: 2020-09-25T10:45:00.000Z within 10 days of 2020-09-15T10:45:00.000Z 1`] = `"expected 2020-09-25T10:45:00.000Z not to be ISO Date String within 10 days of 2020-09-15T10:45:00.000Z (was 10 days)"`;
+
+exports[`toBeIsoDateStringNear custom threshold negative failure message:  within 10 milliseconds of 2020-09-01T10:45:00.000Z 1`] = `"expected  to be ISO Date String within 10 milliseconds of 2020-09-01T10:45:00.000Z (was not an ISO date string)"`;
+
+exports[`toBeIsoDateStringNear custom threshold negative failure message: 5 within 10 milliseconds of 2020-09-01T10:45:00.000Z 1`] = `"expected 5 to be ISO Date String within 10 milliseconds of 2020-09-01T10:45:00.000Z (was not a string)"`;
+
+exports[`toBeIsoDateStringNear custom threshold negative failure message: 2020-08-30T23:45:00.000Z within 10 hours of 2020-09-01T10:45:00.000Z 1`] = `"expected 2020-08-30T23:45:00.000Z to be ISO Date String within 10 hours of 2020-09-01T10:45:00.000Z (was 35 hours)"`;
+
+exports[`toBeIsoDateStringNear custom threshold negative failure message: 2020-09-01T10:34:00.000Z within 10 minutes of 2020-09-01T10:45:00.000Z 1`] = `"expected 2020-09-01T10:34:00.000Z to be ISO Date String within 10 minutes of 2020-09-01T10:45:00.000Z (was 11 minutes)"`;
+
+exports[`toBeIsoDateStringNear custom threshold negative failure message: 2020-09-01T10:44:40.000Z within 10 seconds of 2020-09-01T10:45:00.000Z 1`] = `"expected 2020-09-01T10:44:40.000Z to be ISO Date String within 10 seconds of 2020-09-01T10:45:00.000Z (was 20 seconds)"`;
+
+exports[`toBeIsoDateStringNear custom threshold negative failure message: 2020-09-01T10:44:59.980Z within 10 milliseconds of 2020-09-01T10:45:00.000Z 1`] = `"expected 2020-09-01T10:44:59.980Z to be ISO Date String within 10 milliseconds of 2020-09-01T10:45:00.000Z (was 20 milliseconds)"`;
+
+exports[`toBeIsoDateStringNear custom threshold negative failure message: 2020-09-01T10:45:00.020Z within 10 milliseconds of 2020-09-01T10:45:00.000Z 1`] = `"expected 2020-09-01T10:45:00.020Z to be ISO Date String within 10 milliseconds of 2020-09-01T10:45:00.000Z (was 20 milliseconds)"`;
+
+exports[`toBeIsoDateStringNear custom threshold negative failure message: 2020-09-01T10:45:00.020Z within 10 milliseconds of 2020-09-01T10:45:00.000Z 2`] = `"expected 2020-09-01T10:45:00.020Z to be ISO Date String within 10 milliseconds of 2020-09-01T10:45:00.000Z (was 20 milliseconds)"`;
+
+exports[`toBeIsoDateStringNear custom threshold negative failure message: 2020-09-01T10:45:20.000Z within 10 seconds of 2020-09-01T10:45:00.000Z 1`] = `"expected 2020-09-01T10:45:20.000Z to be ISO Date String within 10 seconds of 2020-09-01T10:45:00.000Z (was 20 seconds)"`;
+
+exports[`toBeIsoDateStringNear custom threshold negative failure message: 2020-09-01T10:56:00.000Z within 10 minutes of 2020-09-01T10:45:00.000Z 1`] = `"expected 2020-09-01T10:56:00.000Z to be ISO Date String within 10 minutes of 2020-09-01T10:45:00.000Z (was 11 minutes)"`;
+
+exports[`toBeIsoDateStringNear custom threshold negative failure message: 2020-09-01T21:45:00.000Z within 10 hours of 2020-09-01T10:45:00.000Z 1`] = `"expected 2020-09-01T21:45:00.000Z to be ISO Date String within 10 hours of 2020-09-01T10:45:00.000Z (was 11 hours)"`;
+
+exports[`toBeIsoDateStringNear custom threshold negative failure message: 2020-09-04T10:45:00.000Z within 10 days of 2020-09-15T10:45:00.000Z 1`] = `"expected 2020-09-04T10:45:00.000Z to be ISO Date String within 10 days of 2020-09-15T10:45:00.000Z (was 11 days)"`;
+
+exports[`toBeIsoDateStringNear custom threshold negative failure message: 2020-09-26T10:45:00.000Z within 10 days of 2020-09-15T10:45:00.000Z 1`] = `"expected 2020-09-26T10:45:00.000Z to be ISO Date String within 10 days of 2020-09-15T10:45:00.000Z (was 11 days)"`;
+
+exports[`toBeIsoDateStringNear custom threshold negative failure message: NaN within 10 milliseconds of 2020-09-01T10:45:00.000Z 1`] = `"expected NaN to be ISO Date String within 10 milliseconds of 2020-09-01T10:45:00.000Z (was not a string)"`;
+
+exports[`toBeIsoDateStringNear custom threshold negative failure message: null within 10 milliseconds of 2020-09-01T10:45:00.000Z 1`] = `"expected null to be ISO Date String within 10 milliseconds of 2020-09-01T10:45:00.000Z (was not a string)"`;
+
+exports[`toBeIsoDateStringNear custom threshold negative failure message: undefined within 10 milliseconds of 2020-09-01T10:45:00.000Z 1`] = `"expected undefined to be ISO Date String within 10 milliseconds of 2020-09-01T10:45:00.000Z (was not a string)"`;
+
+exports[`toBeIsoDateStringNear custom threshold negative failure message: zzz within 10 milliseconds of 2020-09-01T10:45:00.000Z 1`] = `"expected zzz to be ISO Date String within 10 milliseconds of 2020-09-01T10:45:00.000Z (was not an ISO date string)"`;
+
+exports[`toBeIsoDateStringNear default threshold affirmative failure message: 2020-09-01T10:44:59.000Z near 2020-09-01T10:45:00.000Z 1`] = `"expected 2020-09-01T10:44:59.000Z not to be ISO Date String within 1 seconds of 2020-09-01T10:45:00.000Z (was 1 seconds)"`;
+
+exports[`toBeIsoDateStringNear default threshold affirmative failure message: 2020-09-01T10:45:00.000Z near 2020-09-01T10:45:00.000Z 1`] = `"expected 2020-09-01T10:45:00.000Z not to be ISO Date String within 1 seconds of 2020-09-01T10:45:00.000Z (was 0 seconds)"`;
+
+exports[`toBeIsoDateStringNear default threshold affirmative failure message: 2020-09-01T10:45:01.000Z near 2020-09-01T10:45:00.000Z 1`] = `"expected 2020-09-01T10:45:01.000Z not to be ISO Date String within 1 seconds of 2020-09-01T10:45:00.000Z (was 1 seconds)"`;
+
+exports[`toBeIsoDateStringNear default threshold negative failure message:  near 2020-09-01T10:45:00.000Z 1`] = `"expected  to be ISO Date String within 1 seconds of 2020-09-01T10:45:00.000Z (was not an ISO date string)"`;
+
+exports[`toBeIsoDateStringNear default threshold negative failure message: 5 near 2020-09-01T10:45:00.000Z 1`] = `"expected 5 to be ISO Date String within 1 seconds of 2020-09-01T10:45:00.000Z (was not a string)"`;
+
+exports[`toBeIsoDateStringNear default threshold negative failure message: 2020-09-01T10:44:58.000Z near 2020-09-01T10:45:00.000Z 1`] = `"expected 2020-09-01T10:44:58.000Z to be ISO Date String within 1 seconds of 2020-09-01T10:45:00.000Z (was 2 seconds)"`;
+
+exports[`toBeIsoDateStringNear default threshold negative failure message: 2020-09-01T10:45:02.000Z near 2020-09-01T10:45:00.000Z 1`] = `"expected 2020-09-01T10:45:02.000Z to be ISO Date String within 1 seconds of 2020-09-01T10:45:00.000Z (was 2 seconds)"`;
+
+exports[`toBeIsoDateStringNear default threshold negative failure message: NaN near 2020-09-01T10:45:00.000Z 1`] = `"expected NaN to be ISO Date String within 1 seconds of 2020-09-01T10:45:00.000Z (was not a string)"`;
+
+exports[`toBeIsoDateStringNear default threshold negative failure message: null near 2020-09-01T10:45:00.000Z 1`] = `"expected null to be ISO Date String within 1 seconds of 2020-09-01T10:45:00.000Z (was not a string)"`;
+
+exports[`toBeIsoDateStringNear default threshold negative failure message: undefined near 2020-09-01T10:45:00.000Z 1`] = `"expected undefined to be ISO Date String within 1 seconds of 2020-09-01T10:45:00.000Z (was not a string)"`;
+
+exports[`toBeIsoDateStringNear default threshold negative failure message: zzz near 2020-09-01T10:45:00.000Z 1`] = `"expected zzz to be ISO Date String within 1 seconds of 2020-09-01T10:45:00.000Z (was not an ISO date string)"`;

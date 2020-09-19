@@ -1,0 +1,4 @@
+rules:
+  node/shebang: [ off ]
+  no-console: [ off ]
+  node/no-unpublished-require: [ off ]

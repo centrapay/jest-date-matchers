@@ -1,0 +1,36 @@
+{
+  "name": "@centrapay/jest-date-matchers",
+  "version": "1.0.0",
+  "description": "Centrapay Jest date matchers",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "jest",
+    "expect",
+    "assert",
+    "matchers",
+    "date",
+    "moment",
+    "iso8601",
+    "threshold"
+  ],
+  "author": "Nathan Jones <nathan.jones@centrapay.com>",
+  "contributors": [],
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/centrapay/jest-date-matchers",
+  "repository": "https://github.com/centrapay/jest-date-matchers.git",
+  "devDependencies": {
+    "eslint": "^7.3.0",
+    "eslint-plugin-node": "^11.1.0",
+    "jest": "^26.2.1"
+  },
+  "dependencies": {
+    "moment": "^2.28.0"
+  },
+  "peerDependencies": {
+    "expect": "^26.4.2"
+  }
+}
