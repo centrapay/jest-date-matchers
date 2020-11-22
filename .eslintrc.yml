@@ -2,21 +2,27 @@ env:
   es6: true
   node: true
   jest: true
+
 extends:
-  - eslint:recommended
-  - plugin:node/recommended
+  - "eslint:recommended"
+  - "plugin:node/recommended"
+
 parserOptions:
   ecmaVersion: 2020
+
+# when updating, please copy to other projects <3
+# code */.eslintrc.yml
 rules:
+  arrow-spacing: error
+  complexity: [ error, 6 ]
+  curly: [ error, all ]
   indent: [ error, 2 ]
+  key-spacing: [ error, { beforeColon: false } ]
   linebreak-style: [ error, unix ]
+  no-console: [ error ]
+  no-process-exit: off
+  no-trailing-spaces: [ error ]
   quotes: [ error, single ]
   semi: [ error, always ]
-  curly: [ error, all ]
-  no-console: [ error ]
-  complexity: [ error, 6 ]
-  strict: [ error, global ]
-  space-infix-ops: [error]
-  key-spacing: [ error, { beforeColon: false } ]
-  no-trailing-spaces: [ error ]
-  no-process-exit: off
+  space-infix-ops: [ error ]
+  strict: [ error, "global" ]
