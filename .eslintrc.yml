@@ -3,6 +3,9 @@ env:
   node: true
   jest: true
 
+plugins:
+  - "no-only-tests"
+
 extends:
   - "eslint:recommended"
   - "plugin:node/recommended"
@@ -26,3 +29,4 @@ rules:
   semi: [ error, always ]
   space-infix-ops: [ error ]
   strict: [ error, "global" ]
+  no-only-tests/no-only-tests: [ error ]
