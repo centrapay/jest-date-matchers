@@ -29,4 +29,5 @@ rules:
   semi: [ error, always ]
   space-infix-ops: [ error ]
   strict: [ error, "global" ]
+  no-shadow: error
   no-only-tests/no-only-tests: [ error ]
