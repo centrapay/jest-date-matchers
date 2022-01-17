@@ -13,7 +13,6 @@
     "assert",
     "matchers",
     "date",
-    "moment",
     "iso8601",
     "threshold"
   ],
@@ -27,9 +26,6 @@
     "eslint-plugin-no-only-tests": "^2.4.0",
     "eslint-plugin-node": "^11.1.0",
     "jest": "^27.0.3"
-  },
-  "dependencies": {
-    "moment": "2.x"
   },
   "peerDependencies": {
     "expect": "*"
