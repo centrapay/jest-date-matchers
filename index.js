@@ -23,14 +23,25 @@ const expect = require('expect');
  * @param {string} dateString A string to test for ISO Date format
  * @returns bool Whether the given string matches ISO Date format
  */
-const isISOString = (dateString) => {
-  const matchISODate =
+const isIsoDateString = (dateString) => {
+  const matchIsoDate =
     /^([\\+-]?\d{4}(?!\d{2}\b))((-?)((0[1-9]|1[0-2])(\3([12]\d|0[1-9]|3[01]))?|W([0-4]\d|5[0-2])(-?[1-7])?|(00[1-9]|0[1-9]\d|[12]\d{2}|3([0-5]\d|6[1-6])))([T\s]((([01]\d|2[0-3])((:?)[0-5]\d)?|24\\:?00)([\\.,]\d+(?!:))?)?(\17[0-5]\d([\\.,]\d+)?)?([zZ]|([\\+-])([01]\d|2[0-3]):?([0-5]\d)?)?)?)?$/;
-  return matchISODate.test(dateString);
+  return matchIsoDate.test(dateString);
 };
 
+expect.extend({
+  toBeIsoDateString (actual) {
+    const pass = !!isIsoDateString(actual);
+    return {
+      pass,
+      message: () =>
+        `expected ${actual} to be ISO Date String (was ${pass ? 'valid' : 'invalid'})`,
+    };
+  }
+});
+
 /**
- * Helper function to convert a millisecond value to a given unit of time
+ * Helper to convert a millisecond value to a given unit of time
  */
 const millisecondsTo = {
   milliseconds: (value) => value,
@@ -51,7 +62,7 @@ expect.extend({
     let observed;
     if (!isString) {
       observed = 'not a string';
-    } else if (!isISOString(actual)) {
+    } else if (!isIsoDateString(actual)) {
       observed = 'not an ISO date string';
     } else {
       observed = `${diff} ${units}`;
