@@ -1,51 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`isValidIsoDateString affirmative failure message: 2020-02-29T10:00:59.990Z is invalid ISO Date String 1`] = `"expected 2020-02-29T10:00:59.990Z to be ISO Date String (was valid)"`;
-
-exports[`isValidIsoDateString affirmative failure message: 2020-09-01T10:45 is invalid ISO Date String 1`] = `"expected 2020-09-01T10:45 to be ISO Date String (was valid)"`;
-
-exports[`isValidIsoDateString affirmative failure message: 2020-09-01T10:45:00 is invalid ISO Date String 1`] = `"expected 2020-09-01T10:45:00 to be ISO Date String (was valid)"`;
-
-exports[`isValidIsoDateString affirmative failure message: 2020-09-01T10:45:00.010Z is invalid ISO Date String 1`] = `"expected 2020-09-01T10:45:00.010Z to be ISO Date String (was valid)"`;
-
-exports[`isValidIsoDateString affirmative failure message: 2020-12-12 10:00:59.990Z is invalid ISO Date String 1`] = `"expected 2020-12-12 10:00:59.990Z to be ISO Date String (was valid)"`;
-
-exports[`isValidIsoDateString affirmative failure message: 2020-12-12 is invalid ISO Date String 1`] = `"expected 2020-12-12 to be ISO Date String (was valid)"`;
-
-exports[`isValidIsoDateString affirmative failure message: 2020-12-12T10 is invalid ISO Date String 1`] = `"expected 2020-12-12T10 to be ISO Date String (was valid)"`;
-
-exports[`isValidIsoDateString affirmative failure message: 2020-12-12T10:00:59.990Z is invalid ISO Date String 1`] = `"expected 2020-12-12T10:00:59.990Z to be ISO Date String (was valid)"`;
-
-exports[`isValidIsoDateString affirmative failure message: 2020-12-12T10:00:59.990Z is invalid ISO Date String 2`] = `"expected 2020-12-12T10:00:59.990Z to be ISO Date String (was valid)"`;
-
-exports[`isValidIsoDateString affirmative failure message: 2020-12-12T10:00:59.990Z is invalid ISO Date String 3`] = `"expected 2020-12-12T10:00:59.990Z to be ISO Date String (was valid)"`;
-
-exports[`isValidIsoDateString affirmative failure message: 2020-W06-5 09 is invalid ISO Date String 1`] = `"expected 2020-W06-5 09 to be ISO Date String (was valid)"`;
-
-exports[`isValidIsoDateString affirmative failure message: 20201212 is invalid ISO Date String 1`] = `"expected 20201212 to be ISO Date String (was valid)"`;
-
-exports[`isValidIsoDateString affirmative failure message: 20201212T10:00:59.990Z is invalid ISO Date String 1`] = `"expected 20201212T10:00:59.990Z to be ISO Date String (was valid)"`;
-
-exports[`isValidIsoDateString negative failure message: 2020/09/0T10:45:00.010Z is valid ISO Date String 1`] = `"expected 2020/09/0T10:45:00.010Z to be ISO Date String (was invalid)"`;
-
-exports[`isValidIsoDateString negative failure message: 2020-09-0110:44:59.990Z is valid ISO Date String 1`] = `"expected 2020-09-0110:44:59.990Z to be ISO Date String (was invalid)"`;
-
-exports[`isValidIsoDateString negative failure message: 2020-1-12T10:00:59.990Z is valid ISO Date String 1`] = `"expected 2020-1-12T10:00:59.990Z to be ISO Date String (was invalid)"`;
-
-exports[`isValidIsoDateString negative failure message: 2020-12-12T0:00:59.990Z is valid ISO Date String 1`] = `"expected 2020-12-12T0:00:59.990Z to be ISO Date String (was invalid)"`;
-
-exports[`isValidIsoDateString negative failure message: 2020-12-12T10:00:5.990Z is valid ISO Date String 1`] = `"expected 2020-12-12T10:00:5.990Z to be ISO Date String (was invalid)"`;
-
-exports[`isValidIsoDateString negative failure message: 2020-12-12T10:0059.990Z is valid ISO Date String 1`] = `"expected 2020-12-12T10:0059.990Z to be ISO Date String (was invalid)"`;
-
-exports[`isValidIsoDateString negative failure message: 2020-12-12T1000:59.990Z is valid ISO Date String 1`] = `"expected 2020-12-12T1000:59.990Z to be ISO Date String (was invalid)"`;
-
-exports[`isValidIsoDateString negative failure message: 2020-12-12t10:00:59.990Z is valid ISO Date String 1`] = `"expected 2020-12-12t10:00:59.990Z to be ISO Date String (was invalid)"`;
-
-exports[`isValidIsoDateString negative failure message: 2020-1212T10:00:59.9Z is valid ISO Date String 1`] = `"expected 2020-1212T10:00:59.9Z to be ISO Date String (was invalid)"`;
-
-exports[`isValidIsoDateString negative failure message: 202012-12T10:00:59.990Z is valid ISO Date String 1`] = `"expected 202012-12T10:00:59.990Z to be ISO Date String (was invalid)"`;
-
 exports[`toBeIsoDateString affirmative failure message: 2020-02-29T10:00:59.990Z is invalid ISO Date String 1`] = `"expected 2020-02-29T10:00:59.990Z to be ISO Date String (was valid)"`;
 
 exports[`toBeIsoDateString affirmative failure message: 2020-09-01T10:45 is invalid ISO Date String 1`] = `"expected 2020-09-01T10:45 to be ISO Date String (was valid)"`;
