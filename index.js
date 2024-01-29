@@ -15,7 +15,7 @@
  */
 'use strict';
 
-const expect = require('expect');
+const { expect } = require('expect');
 
 /**
  * Checks if a given string is in ISO Date format
