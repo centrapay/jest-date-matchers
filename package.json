@@ -30,6 +30,6 @@
     "moment-timezone": "^0.5.34"
   },
   "dependencies": {
-    "expect": "^29.7.0"
+    "expect": "^30.0.4"
   }
 }
