@@ -11,7 +11,7 @@ jobs:
         with:
           node-version: '24.x'
           registry-url: 'https://registry.npmjs.org'
-      - run: yarn install --frozen-lockfile
+      - run: yarn install --immutable
       - run: scripts/version-tag-validate.js ${{ github.ref }}
       - run: npm publish --access public
         env:
