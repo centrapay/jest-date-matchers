@@ -5,11 +5,10 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## 2.0.0 - 2026-10-07
+## 1.2.0 - 2026-10-07
 ### Changed
-- **BREAKING:** upgrade `expect` to ^30 and require jest 30 in consuming projects
-  (matchers are registered on the `expect` instance this package resolves, so it
-  must be the same major as the consumer's jest)
+- upgrade `expect` to ^30 (verified to work with consuming projects on jest 29
+  and jest 30)
 - upgrade dev dependency jest to 30.5.2, which drops the vulnerable `braces`
   dependency (GHSA-vfj7-8cjw-p6xm) from the dependency tree
 
