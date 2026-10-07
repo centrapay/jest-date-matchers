@@ -1,4 +1,4 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
 exports[`toBeIsoDateString affirmative failure message: 2020-02-29T10:00:59.990Z is invalid ISO Date String 1`] = `"expected 2020-02-29T10:00:59.990Z to be ISO Date String (was valid)"`;
 
